@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background: #fcf0eb;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #fdc8b8;
+    text-decoration: underline;   
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1rem 2.5rem;
+    background-color: #fcf0eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+}
+
+.github {
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background:#feeae3;
+    padding-bottom: 8rem;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 2rem;
+    padding-bottom:  2rem;
+    padding-left: 8rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+hr{
+    border-color: #fdc8b8;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+}
+
+#imgwoman {
+    width: 600px;
+    position: relative;
+    bottom: -0.5rem;
+    left: 5rem;
+}
+
+.team {
+    background: #feeae3;
+    text-align: center;
+}
+
+.team-member {
+    padding-top: 2rem;
+    padding-bottom:  2rem;    
+}
+
+.lalis {
+    border: 5px solid #fdc8b8;  
+    border-radius: 50%;
+    width: 250px;    
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
